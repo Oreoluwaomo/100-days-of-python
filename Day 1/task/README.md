@@ -1,6 +1,6 @@
-# 🎵 Day 1 – Band Name Generator
+#  Day 1 – Band Name Generator
 
-## 📝 Project Description
+##  Project Description
 This was my first project in the **100 Days of Python Challenge**.  
 It’s a simple program that asks the user for:
 - The name of their city  
@@ -10,14 +10,14 @@ Then combines them to generate a fun **band name**!
 
 ---
 
-## 🧠 Concepts Practiced
+##  Concepts Practiced
 - Using the `input()` function  
 - Printing and string concatenation  
 - Basic Python syntax and user interaction  
 
 ---
 
-## 💻 Example Output
+##  Example Output
 Welcome to the Band Name Generator!
 What's the name of the city you grew up in? Lagos
 What's your pet's name? Coco
