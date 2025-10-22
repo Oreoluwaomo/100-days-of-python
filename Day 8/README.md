@@ -47,7 +47,8 @@ The program also handles large shift values and allows repeated runs using loops
 ## Reflection
 This project deepened my understanding of how functions make code more organized and reusable.  
 I learned how to pass data into functions, use parameters effectively, and handle user input dynamically.  
-It also introduced me to problem-solving through algorithmic thinking — translating a concept like “shifting letters” into working logic.
+It also introduced me to problem-solving through algorithmic thinking 
+translating a concept like “shifting letters” into working logic.
 
 ---
 
