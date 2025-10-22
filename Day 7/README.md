@@ -48,7 +48,7 @@ The game uses multiple Python files for better structure:
 ## Reflection
 This project helped me understand how to combine different programming concepts into a complete working game.  
 I also learned how to structure code across multiple files for better organization.  
-Debugging logical errors and managing game states strengthened my problem-solving skills.
+Debugging logical errors and managing game states strengthened my problem solving skills.
 
 ---
 
