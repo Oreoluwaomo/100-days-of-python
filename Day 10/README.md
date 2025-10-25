@@ -18,7 +18,7 @@ It was also my first introduction to **recursion**, allowing the calculator to r
 ---
 
 ## Project Description
-The Calculator program performs basic arithmetic operations — addition, subtraction, multiplication, and division.  
+The Calculator program performs basic arithmetic operations : addition, subtraction, multiplication, and division.  
 Users can perform a calculation, then choose to continue with the result or start a new one.
 
 Example interaction:
@@ -48,7 +48,7 @@ The program continues until the user decides to exit.
 
 ## Reflection
 This project taught me how to **break down logic into smaller functions** and have them work together smoothly.  
-I also understood how to manage program repetition using **recursion** — an elegant alternative to loops in certain cases.  
+I also understood how to manage program repetition using **recursion**  an elegant alternative to loops in certain cases.  
 It was satisfying to see how multiple small pieces of code can combine to create a working calculator.
 
 ---
