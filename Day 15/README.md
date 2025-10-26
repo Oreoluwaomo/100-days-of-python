@@ -4,7 +4,7 @@
 On Day 15, I built a **Coffee Machine simulation program** using Python.  
 The goal was to simulate how a real coffee machine operates : taking orders, checking resources, processing coins, and serving coffee.  
 
-This project was my first deeper introduction to **code logic that models real-world systems**, where multiple functions interact and manage shared data.
+This project was my first deeper introduction to **code logic that models real world systems**, where multiple functions interact and manage shared data.
 
 ---
 
