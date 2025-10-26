@@ -53,7 +53,7 @@ It uses multiple classes to handle different tasks:
 This project showed me the **power of OOP** in simplifying large programs.  
 Instead of long procedural code, I worked with **modular, reusable classes** that each handled one part of the system.  
 
-It also helped me think like a software engineer — designing systems where each component has a clear purpose and interacts with others predictably.
+It also helped me think like a software engineer designing systems where each component has a clear purpose and interacts with others predictably.
 
 ---
 
