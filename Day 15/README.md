@@ -55,7 +55,7 @@ I also got to experience debugging real world logic issues, like handling insuff
 ---
 
 ## Summary of What I Learned
-- How to simulate a real-world process using code  
+- How to simulate a real world process using code  
 - How to use nested dictionaries for structured data  
 - How to manage state and update data dynamically  
 - How to organize code with functions for better readability  
