@@ -1,6 +1,6 @@
-# 🐍 Day 24 – 100 Days of Code 
+#  Day 24 – 100 Days of Code 
 
-## ✅ Projects Completed
+## Projects Completed
 
 ### 1. Snake Game (Final Version)
 - Added a **High Score** feature that saves the highest score even after closing the game.  
@@ -15,7 +15,7 @@
 
 ---
 
-## 🧠 Concepts Learned
+##  Concepts Learned
 - File handling with `with open()` context manager  
 - Reading, writing, and appending text files  
 - String replacement using `.replace()`  
