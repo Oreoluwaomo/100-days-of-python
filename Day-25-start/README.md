@@ -1,4 +1,5 @@
 Day 25 – CSV Data, Pandas Library, and the U.S. States Game
+🧠 Overview
 
 Day 25 was all about learning how to work with CSV files (Comma-Separated Values) and exploring the Pandas library to handle, analyze, and manipulate structured data efficiently. I also completed two major mini-projects:
 
@@ -7,8 +8,9 @@ The Great Squirrel Census Data Analysis
 The U.S. States Game (built with turtle and pandas)
 
 This day combined data analysis, file handling, and game development, which made it both fun and insightful.
-What I Learned:
-- Reading CSV Data in Python
+
+📚 What I Learned
+1. Reading CSV Data in Python
 
 I started by learning how to manually open and read CSV files using Python’s built-in csv module.
 Key takeaways:
@@ -20,7 +22,8 @@ How to split and extract individual columns from a dataset.
 Understanding that each line in a CSV file can be processed as a list in Python.
 
 Example:
-'''import csv
+```python
+import csv
 
 with open("weather_data.csv") as data_file:
     data = csv.reader(data_file)
@@ -28,9 +31,11 @@ with open("weather_data.csv") as data_file:
     for row in data:
         if row[1] != "temp":
             temperatures.append(int(row[1]))
-    print(temperatures)'''
+    print(temperatures)
+```
 
-- Using the Pandas Library
+
+2. Using the Pandas Library
 
 After the manual approach, I learned how to use Pandas to simplify data handling. Pandas introduces DataFrames and Series, which allow you to access and manipulate large datasets more efficiently.
 
@@ -45,13 +50,14 @@ Performing operations like mean, max, and filtering
 Converting data between lists, dictionaries, and DataFrames
 
 Example:
+```python
 import pandas
 
 data = pandas.read_csv("weather_data.csv")
 print(data["temp"].mean())  # Find average temperature
 print(data[data.day == "Monday"])  # Access specific row
-
--The Great Squirrel Census Data Analysis 
+```
+3. The Great Squirrel Census Data Analysis 🐿️
 
 This project involved analyzing real-world data from the 2018 Central Park Squirrel Census. The dataset included thousands of entries with different squirrel colors and behaviors.
 
@@ -62,7 +68,9 @@ Loaded the dataset using Pandas
 Counted how many squirrels of each fur color were observed
 
 Created a new CSV file summarizing the results
+
 Example:
+```python
 import pandas
 
 data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
@@ -77,9 +85,12 @@ squirrel_count = {
 
 df = pandas.DataFrame(squirrel_count)
 df.to_csv("squirrel_count.csv")
+```
+
+
 This project taught me how to apply data filtering and export new data summaries using Pandas.
 
-- U.S. States Game (with Turtle and Pandas) 
+4. U.S. States Game (with Turtle and Pandas) 🗺️
 
 Next, I began the U.S. States Game, a project combining graphical interaction (turtle) and data handling (pandas).
 
@@ -102,7 +113,7 @@ Integrating data-driven logic with graphics using the turtle module.
 Storing missing states in a new CSV file to track which ones weren’t guessed.
 
 Example snippet:
-
+```python
 import turtle
 import pandas
 
@@ -132,8 +143,8 @@ while len(guessed_states) < 50:
         t.penup()
         t.goto(int(state_data.x), int(state_data.y))
         t.write(answer_state)
-
- Concepts Strengthened
+```
+🧩 Concepts Strengthened
 
 File handling (open, read, write)
 
@@ -147,6 +158,4 @@ Writing clean, modular code using loops, lists, and conditionals
 
  Summary
 
-By the end of Day 25, I had learned how to manage and analyze datasets with Pandas, create visual projects that use real data, and export results dynamically. This day bridged the gap between automation, data science, and game logic  showing how powerful Python can be when combining libraries creatively.
-
-
+By the end of Day 25, I had learned how to manage and analyze datasets with Pandas, create visual projects that use real data, and export results dynamically. This day bridged the gap between automation, data science, and game logic showing how powerful Python can be when combining libraries creatively.
