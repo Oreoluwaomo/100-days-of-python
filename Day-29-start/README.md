@@ -25,9 +25,7 @@ Setting a window title
 
 Understanding the Tkinter event loop (window.mainloop())
 
-Why this matters
-
-Every GUI application needs a container to hold and manage user interface components.
+Why this matters : Every GUI application needs a container to hold and manage user interface components.
 
 2. Using Canvas to Display Images
 
@@ -39,11 +37,8 @@ canvas.create_image(100, 100, image=logo_img)
 canvas.grid(column=1, row=0)
 ```
 ✔ What I learned:
-
 PNG images must be stored in the same directory
-
 PhotoImage is required to load images
-
 Canvas helps position images precisely
 
 3. Understanding Tkinter Widgets (Labels, Entries, Buttons)
@@ -76,17 +71,17 @@ This is one of the most important parts of the project.
 
 Steps:
 
-Create lists of letters, numbers, and symbols
+.Create lists of letters, numbers, and symbols
 
-Randomly choose characters
+.Randomly choose characters
 
-Shuffle the characters
+.Shuffle the characters
 
-Join them into a password
+.Join them into a password
 
-Insert into the Entry field
+.Insert into the Entry field
 
-Copy to clipboard
+.Copy to clipboard
 
 ✔ What I learned:
 
@@ -163,5 +158,6 @@ By the end of Day 29, I built a functional password manager that can:
 ✔ Validate empty fields
 ✔ Save login data to a file
 ✔ Display a polished GUI using Tkinter
+
 
 This project ties together Tkinter, randomization, file handling, and user flows, forming the foundation for tomorrow’s upgraded version using JSON + Search functionality.
