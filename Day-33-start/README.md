@@ -207,4 +207,5 @@ Public APIs:
 ### Final Thoughts
 
 Day 33 marked a shift from basic scripting to data-driven automation.
-This project showed how Python can monitor real-world events and respond automatically  a key concept behind modern software systems.
+
+This project showed how Python can monitor real world events and respond automatically  a key concept behind modern software systems.
